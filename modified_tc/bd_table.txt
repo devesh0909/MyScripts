@@ -1,0 +1,2 @@
+0 34816 linear /dev/loop1 0
+34816 147079 error
