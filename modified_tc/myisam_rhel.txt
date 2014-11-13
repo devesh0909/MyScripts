@@ -1,0 +1,12 @@
+[mysqld]
+datadir=/data/mysql
+socket=/var/lib/mysql/mysql.sock
+
+user=root
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+default-table-type=MYISAM
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
